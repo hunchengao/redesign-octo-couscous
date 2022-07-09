@@ -1,4 +1,3 @@
-
 //RGB腳位
 #define RGB_PIN  13
 
@@ -70,7 +69,8 @@ void Motor_Controal(int Spend_A,int Spend_B)
   }
 }
 
-void setup() {
+void setup() 
+{
   pinMode(RGB_PIN, OUTPUT);
   pinMode(IR1, INPUT);
   pinMode(IR2, INPUT);
@@ -84,10 +84,10 @@ void setup() {
   pinMode(BIN2, OUTPUT);
   pinMode(PWMB, OUTPUT);
 
-
   Motor_Controal(255, 255);
 }
 
-void loop() {
+void loop() 
+{
 
 }
